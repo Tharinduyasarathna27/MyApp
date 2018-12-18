@@ -6,51 +6,19 @@
                 android:layout_height="match_parent"
                 tools:context="com.example.tharindumvvse.myapplication.MainActivity">
 
-    <EditText
-            android:id="@+id/editText1"
+    <Button
+            android:text="Download file"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:layout_marginTop="201dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="19dp"
-            android:ems="10"
-            android:inputType="number"
-            tools:layout_editor_absoluteX="84dp"
-            tools:layout_editor_absoluteY="53dp"/>
-
-    <EditText
-            android:id="@+id/editText2"
-            android:layout_width="wrap_content"
+            android:id="@+id/button"/>
+    <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/editText1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="32dp"
-            android:ems="10"
-            android:inputType="number"
-            tools:layout_editor_absoluteX="84dp"
-            tools:layout_editor_absoluteY="127dp" />
-
-    <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="166dp"
-            android:text="ADD"
-            tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="266dp"
-            android:layout_alignParentTop="true"/>
-    <RatingBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="153dp"
-            android:layout_centerHorizontal="true"
-            android:id="@+id/ratingBar"/>
-    <Button
-            android:text="Rate App"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
-            android:layout_marginBottom="58dp" android:layout_centerHorizontal="true" android:id="@+id/buttonRating"/>
-
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize" android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" android:id="@+id/toolbar"/>
 </RelativeLayout>
